@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "outDir": "public",
+    "rootDir": ".",
+    "resolveJsonModule": true,
+    "lib": [
+      "ES2020",
+      "ES2020.Promise"
+    ]
+  }
+}
