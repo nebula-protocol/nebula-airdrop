@@ -54,7 +54,7 @@ async function takeSnapshot(
   logger.info(
     `-- Nebula allocation example: ${delegatorAddresses[0]} getting ${
       delegatorsNebula[delegatorAddresses[0]]
-    } NEB`
+    } uNEB`
   );
   if (delegatorAddresses.length < 1) {
     throw new Error("take snapshot failed. target delegators is none.");
